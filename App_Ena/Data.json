@@ -1,0 +1,201 @@
+{
+ "lessons": [
+   {
+     "topic": "Animal",
+     "description": "Aprender los nombres de animales en inglés.",
+     "games": [
+       {
+         "type": "Selección multiple",
+         "description": "Elige la palabra correcta para la imagen mostrada.",
+         "questions": [
+           {
+             "image": "dog.png",
+             "options": ["dog", "cat", "cow", "bird"],
+             "correct_answer": "dog"
+           },
+           {
+             "image": "cat.png",
+             "options": ["dog", "cat", "cow", "bird"],
+             "correct_answer": "cat"
+           },
+           {
+             "image": "cow.png",
+             "options": ["horse", "sheep", "cow", "rabbit"],
+             "correct_answer": "cow"
+           },
+           {
+             "image": "horse.png",
+             "options": ["dog", "horse", "pig", "sheep"],
+             "correct_answer": "horse"
+           }
+         ]
+       },
+       {
+         "type": "Marcar imagen",
+         "description": "Marque la imagen correspondiente a la palabra.",
+         "questions": [
+           {
+             "word": "bird",
+             "images": ["dog.png", "cat.png", "bird.png", "cow.png"],
+             "correct_answer": "bird.png"
+           },
+           {
+             "word": "rabbit",
+             "images": ["horse.png", "rabbit.png", "sheep.png", "pig.png"],
+             "correct_answer": "rabbit.png"
+           },
+           {
+             "word": "sheep",
+             "images": ["sheep.png", "dog.png", "cat.png", "horse.png"],
+             "correct_answer": "sheep.png"
+           }
+         ]
+       }
+     ]
+   },
+   {
+     "topic": "Number",
+     "description": "Aprende los números en inglés.",
+     "games": [
+       {
+         "type": "Selección multiple",
+         "description": "Elige la palabra correcta para la imagen mostrada.",
+         "questions": [
+           {
+             "image": "number_1.png",
+             "options": ["one", "two", "three", "four"],
+             "correct_answer": "one"
+           },
+           {
+             "image": "number_2.png",
+             "options": ["one", "two", "three", "four"],
+             "correct_answer": "two"
+           },
+           {
+             "image": "number_5.png",
+             "options": ["four", "five", "six", "seven"],
+             "correct_answer": "five"
+           },
+           {
+             "image": "number_7.png",
+             "options": ["six", "seven", "eight", "nine"],
+             "correct_answer": "seven"
+           }
+         ]
+       },
+       {
+         "type": "Marcar imagen",
+         "description": "Marque la imagen correspondiente a la palabra.",
+         "questions": [
+           {
+             "word": "three",
+             "images": ["number_1.png", "number_2.png", "number_3.png", "number_4.png"],
+             "correct_answer": "number_3.png"
+           },
+           {
+             "word": "eight",
+             "images": ["number_5.png", "number_6.png", "number_7.png", "number_8.png"],
+             "correct_answer": "number_8.png"
+           }
+         ]
+       }
+     ]
+   },
+   {
+     "topic": "Color",
+     "description": "Aprende los colores en inglés.",
+     "games": [
+       {
+         "type": "Selección multiple",
+         "description": "Elige la palabra correcta para la imagen mostrada.",
+         "questions": [
+           {
+             "image": "red.png",
+             "options": ["red", "blue", "green", "yellow"],
+             "correct_answer": "red"
+           },
+           {
+             "image": "blue.png",
+             "options": ["red", "blue", "green", "yellow"],
+             "correct_answer": "blue"
+           },
+           {
+             "image": "yellow.png",
+             "options": ["green", "yellow", "black", "white"],
+             "correct_answer": "yellow"
+           },
+           {
+             "image": "purple.png",
+             "options": ["orange", "purple", "red", "blue"],
+             "correct_answer": "purple"
+           }
+         ]
+       },
+       {
+         "type": "Marcar imagen",
+         "description": "Marque la imagen correspondiente a la palabra.",
+         "questions": [
+           {
+             "word": "black",
+             "images": ["black.png", "white.png", "blue.png", "green.png"],
+             "correct_answer": "black.png"
+           },
+           {
+             "word": "orange",
+             "images": ["red.png", "orange.png", "purple.png", "yellow.png"],
+             "correct_answer": "orange.png"
+           }
+         ]
+       }
+     ]
+   },
+   {
+     "topic": "Food",
+     "description": "Aprende los nombres de comidas en inglés.",
+     "games": [
+       {
+         "type": "Selección multiple",
+         "description": "Elige la palabra correcta para la imagen mostrada.",
+         "questions": [
+           {
+             "image": "apple.png",
+             "options": ["apple", "bread", "milk", "cheese"],
+             "correct_answer": "apple"
+           },
+           {
+             "image": "bread.png",
+             "options": ["apple", "bread", "milk", "cheese"],
+             "correct_answer": "bread"
+           },
+           {
+             "image": "egg.png",
+             "options": ["carrot", "egg", "potato", "banana"],
+             "correct_answer": "egg"
+           },
+           {
+             "image": "carrot.png",
+             "options": ["cheese", "bread", "carrot", "potato"],
+             "correct_answer": "carrot"
+           }
+         ]
+       },
+       {
+         "type": "Marcar imagen",
+         "description": "Marque la imagen correspondiente a la palabra.",
+         "questions": [
+           {
+             "word": "milk",
+             "images": ["apple.png", "bread.png", "milk.png", "cheese.png"],
+             "correct_answer": "milk.png"
+           },
+           {
+             "word": "banana",
+             "images": ["banana.png", "egg.png", "potato.png", "carrot.png"],
+             "correct_answer": "banana.png"
+           }
+         ]
+       }
+     ]
+   }
+ ]
+}
