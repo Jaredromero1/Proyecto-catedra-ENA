@@ -27,13 +27,15 @@ struct Home: View {
     
     var body: some View {
         ZStack {
-            Color("background")
+            Color("background-dark")
                 .ignoresSafeArea()
             
             VStack {
                 Text("Word Cards")
                     .padding(.vertical, 20)
                     .font(.title2)
+                    .bold()
+                    .foregroundStyle(.white)
                 
                 ScrollView {
                     LazyVGrid(columns: formaGrid, spacing: 8) {
@@ -42,7 +44,8 @@ struct Home: View {
                                 VStack(alignment: .leading) {
                                     Text(lesson.topic)
                                         .font(.callout)
-                                        .foregroundStyle(.black)
+                                        .foregroundStyle(.white)
+                                        .bold()
                                 
                                     Image(lesson.topic)
                                         .resizable()
@@ -51,7 +54,7 @@ struct Home: View {
                                 }
                                 .padding()
                                 .frame(width: 180, alignment: .center)
-                                .background(Color.white)
+                                .background(Color("button-color"))
                                 .clipShape(RoundedRectangle(cornerRadius: 15))
                             }
                         }
@@ -67,44 +70,3 @@ struct Home: View {
 #Preview {
     ContentView()
 }
-
-//NavigationLink(destination: Levels()) {
-//    VStack(alignment: .leading) {
-//        Text(type)
-//    
-//        Image(type)
-//            .resizable()
-//            .scaledToFit()
-//            .frame(width: 120, height: 120)
-//    }
-//    .padding()
-//    .frame(width: 180, alignment: .center)
-//    .background(Color.white)
-//    .clipShape(RoundedRectangle(cornerRadius: 15))
-//}
-
-
-//ScrollView {
-//    LazyVGrid(columns: formaGrid, spacing: 8) {
-//        ForEach(types, id: \.self) { type in
-//            NavigationLink(destination: Levels()) {
-//                VStack(alignment: .leading) {
-//                    Text(type)
-//                        .font(.callout)
-//                        .foregroundStyle(.black)
-//                
-//                    Image(type)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(width: 120, height: 120)
-//                }
-//                .padding()
-//                .frame(width: 180, alignment: .center)
-//                .background(Color.white)
-//                .clipShape(RoundedRectangle(cornerRadius: 15))
-//            }
-//        }
-//    }
-//}
-//.scrollIndicators(.hidden)
-//.padding(.horizontal)

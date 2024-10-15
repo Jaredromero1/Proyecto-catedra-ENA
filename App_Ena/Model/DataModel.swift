@@ -28,7 +28,7 @@ struct Game: Codable {
 struct Question: Codable {
     let image: String?
     let options: [String]?
-    let correctAnswer: String
+    let correctAnswer: String?
     let word: String?
     let images: [String]?
 
