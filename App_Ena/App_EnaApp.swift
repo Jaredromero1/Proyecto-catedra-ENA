@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct App_EnaApp: App {
+    @State private var showSplashScreen: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if showSplashScreen {
+                SplashScreenView()
+                    .onAppear() {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            self.showSplashScreen = false
+                        }
+                    }
+            } else {
+                ContentView()
+            }
         }
     }
 }
