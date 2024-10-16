@@ -82,7 +82,7 @@ struct MarkImageGameView: View {
                         }
                     }
                 }
-                .padding()
+                .padding(.horizontal, 10)
                 .onAppear {
                     startGameTimer()
                 }

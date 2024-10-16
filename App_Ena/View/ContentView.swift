@@ -61,7 +61,7 @@ struct Home: View {
                     }
                 }
                 .scrollIndicators(.hidden)
-                .padding(.horizontal)
+                .padding(.horizontal, 10)
             }
         }
     }

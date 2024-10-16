@@ -77,7 +77,7 @@ struct MultipleChoiceGameView: View {
                     }
                     .padding(.top, 60)
                 }
-                .padding()
+                .padding(.horizontal, 10)
                 .onAppear {
                     startGameTimer()  // Iniciar el temporizador cuando aparezca la vista
                 }
