@@ -82,6 +82,27 @@
                     "description": "Select the correct image for the word.",
                     "questions": [
                         {
+                            "word": "penguin",
+                            "images": ["spider", "rabbit", "octopus", "penguin"],
+                            "correct_answer": "penguin"
+                        },
+                        {
+                            "word": "spider",
+                            "images": ["spider", "whale", "fox", "monkey"],
+                            "correct_answer": "spider"
+                        },
+                        {
+                            "word": "fox",
+                            "images": ["elephant", "dog", "fox", "cow"],
+                            "correct_answer": "fox"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image selection",
+                    "description": "Select the correct image for the word.",
+                    "questions": [
+                        {
                             "word": "Elephant",
                             "images": ["dog", "cat", "elephant", "cow"],
                             "correct_answer": "elephant"
@@ -103,19 +124,40 @@
                     "description": "Select the correct image for the word.",
                     "questions": [
                         {
-                            "word": "Monkey",
-                            "images": ["monkey", "cat", "elephant", "cow"],
-                            "correct_answer": "monkey"
+                            "word": "Elephant",
+                            "images": ["dog", "cat", "elephant", "cow"],
+                            "correct_answer": "elephant"
                         },
                         {
-                            "word": "Lion",
-                            "images": ["cat", "cow", "lion", "monkey"],
-                            "correct_answer": "lion"
+                            "word": "Rabbit",
+                            "images": ["cat", "rabbit", "lion", "monkey"],
+                            "correct_answer": "rabbit"
                         },
                         {
-                            "word": "Cat",
+                            "word": "Cow",
                             "images": ["lion", "rabbit", "cat", "cow"],
-                            "correct_answer": "cat"
+                            "correct_answer": "cow"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image selection",
+                    "description": "Select the correct image for the word.",
+                    "questions": [
+                        {
+                            "word": "Whale",
+                            "images": ["octopus", "penguin", "seahorse", "whale"],
+                            "correct_answer": "whale"
+                        },
+                        {
+                            "word": "Octopus",
+                            "images": ["whale", "seahorse", "penguin", "octopus"],
+                            "correct_answer": "octopus"
+                        },
+                        {
+                            "word": "Seahorse",
+                            "images": ["fox", "whale", "spider", "seahorse"],
+                            "correct_answer": "seahorse"
                         }
                     ]
                 }
